@@ -5,37 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li><a href="index.html">Home</a></li>
-        <li><a href="">Contato</a></li>
+        <li><a href="contato.html">Contato</a></li>
     </ul>
 
-    <h1>Entre em contato comigo:</h1>
+    <h1 class="center"> Entre em contato comigo:</h1>
     
-    <form>
-        <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">Email:</label> <br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <div class="container mb-50">
+        <div>
+            <form>
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
 
-    <h2>Endereço:</h2>
-    <p>R. Ver. Henrique Soler, 235 - Ponta da Praia</p>
-    <p>Santos - SP</p>
+        <div class="ml-50">    
+            <p>R. Ver. Henrique Soler, 235 - Ponta da Praia</p>
+            <p>Santos - SP</p>
+    
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7290.776261203489!2d-46.29779636873954!3d-23.982067561444797!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd59924fd2065b991!2sKoji%20Gourmet!5e0!3m2!1spt-BR!2sbr!4v1644432412981!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7290.776261203489!2d-46.29779636873954!3d-23.982067561444797!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd59924fd2065b991!2sKoji%20Gourmet!5e0!3m2!1spt-BR!2sbr!4v1644432412981!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/leonardomaiorano/" target="_blank">
+                <img class="tm-social" src="img/logotipo-do-linkedin.png" alt="Logo do Linkedin">
+            </a>
+            <a href="https://github.com/leonardomaiorano" target="_blank">
+                <img class="tm-social" src="img/github.png" alt="Logo do Github">
+            </a>
+        </div>
 
+        <p class="center">
+            Todos os direitos reservados para: Leonardo Maiorano &copy;
+        </p>
+    </footer>
 
 </body>
 </html>
