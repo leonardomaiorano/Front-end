@@ -1,5 +1,9 @@
 /*Estilos da página index.html*/
 
+main {
+    height: 100vh;
+}
+
 .center{
     text-align: center;
 }
