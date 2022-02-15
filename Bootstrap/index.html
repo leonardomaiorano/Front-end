@@ -13,15 +13,15 @@
         }
 
         .carousel-control-prev-icon, .carousel-control-next-icon {
-            background-color: rgba(0, 0, 0, 0.3);
+            background-color: rgb(0, 0, 0);
         }
     </style>
-    <title>Página Teste</title>
+    <title>Bluefin Sushi</title>
   </head>
   <body>
     <!--Nav-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">&copy; Bluefin</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,24 +29,19 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+              <a class="nav-link" href="#">Início<span class="sr-only">(página atual)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#combinados" >Combinados</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Informações
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ação</a>
-                <a class="dropdown-item" href="#">Outra ação</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Algo mais aqui</a>
+                <a class="dropdown-item" href="#quemSomos">Quem Somos</a>
+                <a class="dropdown-item" href="#contato">Contato</a>
               </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Desativado</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -66,13 +61,13 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="https://res.cloudinary.com/practicaldev/image/fetch/s--DtQ5czzK--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/i/vikgj9pssaffio4xbb7j.png" alt="Primeiro Slide">
+            <img class="d-block w-100" src="https://wallpx.com/preview?src=/image/2021/04/japanese-food-sushi.jpg&width=1280&height=720" alt="Primeiro Slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://i.ytimg.com/vi/0MFfXSTjPAs/maxresdefault.jpg" alt="Segundo Slide">
+            <img class="d-block w-100" src="https://data2.1freewallpapers.com/download/japanese-cuisine-food-dinner-1280x720.jpg" alt="Segundo Slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/90337021/original/d2d17e7f58f892c0000de124495b544323843b7d/do-and-fix-any-html-css-js-bootstrap-errors.jpg" alt="Terceiro Slide">
+            <img class="d-block w-100" src="https://wallpaperforu.com/wp-content/uploads/2020/10/food-wallpaper-201003132519481280x720.jpg" alt="Terceiro Slide">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -87,22 +82,22 @@
     <!--/Carousel-->
 
     <!--Jumbotron-->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid bg-transparent text-center">
         <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">Este é um jumbotron modificado que ocupa todo o espaço horizontal de seu elemento pai.</p>
+          <h1 class="display-4">&copy; Bluefin Sushi</h1>
+          <p class="lead">O melhor da culinária japonesa, agora ao seu alcançe.</p>
         </div>
     </div>
     <!--/Jumbotron-->
 
     <!--Cards-->
     <div class="container">
-        <div class="card-columns">
+        <div class="card-columns" id="combinados">
             <div class="card">
-              <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+              <img class="card-img-top" src="assets/img/combinado1.jpg" alt="Foto do combinado 1">
               <div class="card-body">
-                <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
-                <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+                <h5 class="card-title">Combinado 1</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga sapiente commodi corporis nisi in eum ab illum quas, possimus saepe omnis facere pariatur alias minima sit adipisci dolorem nulla magni!.</p>
               </div>
             </div>
             <div class="card p-3">
@@ -110,78 +105,70 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                 <footer class="blockquote-footer">
                   <small class="text-muted">
-                    Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+                    Review de Cliente através do <cite title="Título da fonte">Site de Review</cite>
                   </small>
                 </footer>
               </blockquote>
             </div>
             <div class="card">
-              <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+              <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3pzMaorNZTYSzLCLIsZCVpDoWIzchyN_wY1yRpijFe4AegkX4JxD_RFE9VycLewRS8qo&usqp=CAU" alt="Foto do combinado 2">
               <div class="card-body">
-                <h5 class="card-title">Título do card</h5>
-                <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                <h5 class="card-title">Combinado 2</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, officiis hic corporis iste magni praesentium nulla quibusdam consequatur, voluptas nisi quae qui nihil eos facilis ad consectetur laborum, laboriosam ratione.</p>
               </div>
             </div>
-            <div class="card bg-primary text-white text-center p-3">
+            <div class="card bg-dark text-white text-center p-3">
               <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                <footer class="blockquote-footer">
-                  <small>
-                    Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-                  </small>
-                </footer>
+                <p>Aberto de Segundas aos Domingos, das 11h às 23h.</p>
               </blockquote>
             </div>
             <div class="card text-center">
               <div class="card-body">
-                <h5 class="card-title">Título do card</h5>
-                <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                <h5 class="card-title">Culinária Japonesa</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus deserunt cum ea sunt ratione minima, obcaecati temporibus nemo facere aperiam corporis expedita unde et quos. Dolorem pariatur ea nam quod!</p>
               </div>
             </div>
             <div class="card">
-              <img class="card-img" src=".../100px260/" alt="Imagem do card">
+              <img class="card-img" src="https://media.gettyimages.com/photos/directly-above-shot-of-sushi-served-in-plates-on-table-picture-id660595553?s=612x612" alt="Imagem do card">
             </div>
             <div class="card p-3 text-right">
               <blockquote class="blockquote mb-0">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                 <footer class="blockquote-footer">
                   <small class="text-muted">
-                    Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+                    Revista gastronômica <cite title="Título da fonte">Revista</cite>
                   </small>
                 </footer>
               </blockquote>
             </div>
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Título do card</h5>
-                <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
-                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                <h5 class="card-title">Ingredientes Frescos</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur eos, impedit minus ipsam ea iste officia numquam consequatur facere doloremque! Asperiores iusto atque laborum itaque, nam officiis vitae provident voluptatem.</p>
               </div>
             </div>
         </div>
     <!--/Cards-->
 
     <!--Texto e Vídeo-->
-        <div class="row mt-5 mb-5">
+        <div class="row mt-5 mb-5" id="quemSomos">
             <div class="col-md-6">
-                <h3>Texto teste</h3>
+                <h3>Quem Somos</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt suscipit facere rem pariatur eveniet eius deserunt tenetur numquam dolorum quisquam error atque nemo ullam dolorem corporis corrupti reprehenderit, aspernatur alias.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at laudantium harum possimus. Necessitatibus, voluptas, debitis sequi consequuntur, sapiente eius laboriosam temporibus sunt quibusdam deserunt quia? Atque eos vel optio!</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste officiis cupiditate consequatur laudantium quos architecto, sit minima quae voluptatibus, veritatis culpa voluptatem vitae nemo. Iusto, mollitia. Assumenda ipsa voluptatum aut?</p>
             </div>
             <div class="col-md-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/K4DyBUG242c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/skgsn2PKZ1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     <!--/Texto e Vídeo-->
 
     <!--Contato-->
-        <div class="row">
+        <div class="row" id="contato">
             <div class="col-md-12">
                 <h4 class="text-center">
-                    Entre em contato comigo
+                    Entre em contato conosco
                 </h4>
             </div>
         </div>
@@ -196,9 +183,10 @@
                     <div class="form-group">
                     <label for="exampleFormControlSelect1">Selecione sua ocupação</label>
                     <select class="form-control" id="exampleFormControlSelect1">
-                        <option>Recrutador</option>
-                        <option>Estudante</option>
-                        <option>Desenvolvedor</option>
+                        <option>Cliente</option>
+                        <option>Fornecedor</option>
+                        <option>Crítico</option>
+                        <option>Reportagem</option>
                         <option>Outro</option>
                     </select>
                     </div>
